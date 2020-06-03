@@ -44,6 +44,7 @@
   "dependencies": {
     "globby": "^11.0.1",
     "json-schema-faker": "^0.5.0-rcv.24",
+    "ts-node": "^8.10.2",
     "typescript-json-schema": "^0.42.0"
   }
 }
