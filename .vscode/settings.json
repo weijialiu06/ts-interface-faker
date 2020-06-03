@@ -1,0 +1,16 @@
+{
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "prettier.singleQuote": true,
+  "prettier.disableLanguages": [],
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "prettier.tabWidth": 2,
+  "eslint.validate": ["javascript"],
+  "tslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
+  "tslint.configFile": "./tslint.json",
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
