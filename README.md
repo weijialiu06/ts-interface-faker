@@ -199,9 +199,8 @@ const data: IPerson = faker.getFakeData('IPerson');
 }
 ```
 
+[点击查看更多 mockjs 示例](http://mockjs.com/examples.html)
+
 ## Todo
 
 - [x] 接入[mockjs](https://github.com/nuysoft/Mock.git)
-- [ ] 自定义 mock 数据类型
-
-(Welcome Star)[https://github.com/weijialiu06/ts-interface-faker]

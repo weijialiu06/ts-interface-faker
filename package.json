@@ -1,7 +1,7 @@
 {
   "name": "ts-interface-faker",
-  "version": "1.0.1",
-  "description": "typescript interface mock/fake——基于typescript的interface生成对应结构的假数据; fake/mock  data base on Typescript Interfaces;",
+  "version": "1.1.0",
+  "description": "typescript interface mock/fake——基于typescript的interface生成对应结构的假数据;支持 mockjs de '@语法'和'Random'方法; fake/mock  data base on Typescript Interfaces;",
   "main": "./dist/interfaceFake.js",
   "files": [
     "dist"
@@ -15,10 +15,11 @@
     "url": "git+https://github.com/weijialiu06/ts-interface-fake.git"
   },
   "keywords": [
-    "typescript",
-    "ts",
-    "interface",
     "mock",
+    "mockjs",
+    "typescript",
+    "interface",
+    "ts",
     "fake",
     "faker",
     "mocker"
