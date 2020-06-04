@@ -1,4 +1,3 @@
-const path = require('path');
 const globby = require('globby');
 const TJS = require('typescript-json-schema');
 const jsf = require('json-schema-faker');
