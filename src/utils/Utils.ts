@@ -1,7 +1,10 @@
 class Utils {
-  public static interfece2JsonSchema(): void {
-    console.log('1');
+  public static mockjsRandomTypes: RegExp[] = [/^image/];
+  public static isTsOriginTtpe(type: string): boolean {
+    const originTypes: string[] = ['number', 'string'];
+    return originTypes.indexOf(type) !== -1;
   }
+
 }
 
 export default Utils;

@@ -1,13 +1,13 @@
 {
   "name": "ts-interface-faker",
-  "version": "0.0.2",
-  "description": "typescript interface mock/fake——基于typescript的interface生成对应结构的假数据; fake/mock  data base on interface of typescript;",
+  "version": "1.0.1",
+  "description": "typescript interface mock/fake——基于typescript的interface生成对应结构的假数据; fake/mock  data base on Typescript Interfaces;",
   "main": "./dist/interfaceFake.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "nodemon --watch  --exec ./node_modules/.bin/ts-node example/index.ts",
+    "dev": "nodemon --watch ./**/*.*  --exec \"./node_modules/.bin/ts-node\" example/index.ts",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
@@ -15,14 +15,12 @@
     "url": "git+https://github.com/weijialiu06/ts-interface-fake.git"
   },
   "keywords": [
-    "typescript interface mock",
-    "typescript interface faker",
     "typescript",
+    "ts",
     "interface",
-    "interface mock",
+    "mock",
     "fake",
     "faker",
-    "mock",
     "mocker"
   ],
   "author": "",
@@ -44,6 +42,7 @@
   "dependencies": {
     "globby": "^11.0.1",
     "json-schema-faker": "^0.5.0-rcv.24",
+    "mockjs": "^1.1.0",
     "ts-node": "^8.10.2",
     "typescript-json-schema": "^0.42.0"
   }
