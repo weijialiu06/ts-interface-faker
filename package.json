@@ -1,7 +1,7 @@
 {
   "name": "ts-interface-faker",
   "version": "0.0.2",
-  "description": "基于typescript的interface生成对应结构的假数据; fake/mock  data base on interface of typescript;",
+  "description": "typescript interface mock/fake——基于typescript的interface生成对应结构的假数据; fake/mock  data base on interface of typescript;",
   "main": "./dist/interfaceFake.js",
   "files": [
     "dist"

@@ -7,4 +7,5 @@ export interface IPerson {
     age: number;
     isMale: boolean;
   };
+  say(): void;
 }

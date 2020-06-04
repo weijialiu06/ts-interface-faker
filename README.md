@@ -1,6 +1,6 @@
 # ts-interface-faker
 
-基于 typescript 的 interface 结构创造假数据；
+typescript interface mock/fake——基于 typescript 的 interface 结构创造假数据；
 
 generating fake data base on interface of typescript;
 
@@ -10,7 +10,7 @@ generating fake data base on interface of typescript;
 npm i ts-interface-faker --save
 ```
 
-## usage
+## Usage
 
 ```js
 const path = require('path');
@@ -25,7 +25,7 @@ const data = faker.getFakeData((interfaceName: string));
 
 ## Demo
 
-**in typescript file**
+**typescript**
 
 ```js
 const path = require('path');
@@ -61,3 +61,8 @@ console.log(data);
      isMale: true,
      name: 'ad amet enim in' } }
 ```
+
+## Todo
+
+- [ ] 接入[mockjs](https://github.com/nuysoft/Mock.git)
+- [ ] 自定义 mock 数据类型

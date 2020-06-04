@@ -1,7 +1,6 @@
 const globby = require('globby');
 const TJS = require('typescript-json-schema');
 const jsf = require('json-schema-faker');
-// import { jsf } from './utils/extendCustomData';
 
 export interface ISchemaProperty {
   type: string;
